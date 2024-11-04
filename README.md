@@ -11,24 +11,6 @@ I have used Rails in-built database i.e SQLite
 - **Nested Resources**: Tasks are nested under projects, allowing for structured and intuitive project-task relationships.
 - **CRUD Operations**: Complete CRUD functionality for projects and tasks, scoped to each signed-in user.
 
-## Setup
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Musharraf29/project-management-app.git
-   cd project-management-app
-   
-2. **Install Dependencies**
-   ```bash
-    bundle install
-   
-3.**Setup the database**
-  ```bash
-  rails db:create db:migrate
-
-4.**Run the Server**
-  ```bash
-  rails s
 
 ## Usage
 **Sign Up / Login:**
@@ -42,4 +24,23 @@ Add tasks to any project, edit task details, or delete tasks as needed.
 
 **View All Projects and Tasks:**
 View all your projects and their associated tasks from the main dashboard.
+
+
+## Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Musharraf29/project-management-app.git
+   cd project-management-app
+   
+2. **Install Dependencies**
+   ```bash
+    bundle install
+   
+3.**Setup the database and Run the Server**
+  rails db:create db:migrate
+To run Server:rails s
+
+
+
 
