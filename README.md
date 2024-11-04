@@ -17,9 +17,29 @@ I have used Rails in-built database i.e SQLite
    ```bash
    git clone https://github.com/Musharraf29/project-management-app.git
    cd project-management-app
+   
 2. **Install Dependencies**
+   ```bash
     bundle install
+   
 3.**Setup the database**
+  ```bash
   rails db:create db:migrate
+
 4.**Run the Server**
+  ```bash
   rails s
+
+## Usage
+**Sign Up / Login:**
+New users can sign up and log in to manage their own projects and tasks.
+
+**Create a Project:**
+After logging in, create a new project. Each project can contain multiple tasks.
+
+**Manage Tasks:**
+Add tasks to any project, edit task details, or delete tasks as needed.
+
+**View All Projects and Tasks:**
+View all your projects and their associated tasks from the main dashboard.
+
